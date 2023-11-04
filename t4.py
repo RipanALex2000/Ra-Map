@@ -24,7 +24,7 @@ def aip(url,limita=6):
     else:
         print("Cererea HTTP a esuat.Cod de stare",raspuns.status_code)
         return None
-def se(i_p,n_f="/home/tempus/lab/Map-py/t4/ex.xlsx"):
+def se(i_p,n_f="//ex.xlsx"):
     if i_p:
         workout  = openpyxl.Workbook()
         sheet = workout.active
