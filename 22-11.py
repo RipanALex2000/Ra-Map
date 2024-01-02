@@ -15,7 +15,7 @@ class MyApp(App):
         self.win1 = Label(text="")
         self.window.add_widget(self.win)
         self.window.add_widget(self.win1)
-        self.user =  TextInput(multiline=False)
+        self.user = TextInput(multiline=False)
         self.window.add_widget(self.user)
         self.button1 = Button(text="+")
         self.button2 = Button(text="-")
